@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "680395068789",
+    "firebase_url": "https://seatticketing.firebaseio.com",
+    "project_id": "seatticketing",
+    "storage_bucket": "seatticketing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680395068789:android:c211baeb069300ab812f3c",
+        "android_client_info": {
+          "package_name": "com.example.blueberryseat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680395068789-6ucr15edigjlm4mi5orpua0b3cnupi7u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.blueberryseat",
+            "certificate_hash": "6605ef465c084d6ac3be98bb635271861e05e995"
+          }
+        },
+        {
+          "client_id": "680395068789-4r2vohn4sd16r7afp599b9am8hu9pffa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE7e8biwg--DNFPzjYqT_XPkvnpakUFhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680395068789-4r2vohn4sd16r7afp599b9am8hu9pffa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "680395068789-36k5meoppn9sastel2oj00m9bt5m3vao.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kimxwan.seatTicketing"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
