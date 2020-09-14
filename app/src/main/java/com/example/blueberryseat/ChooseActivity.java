@@ -29,7 +29,7 @@ import static com.example.blueberryseat.MainActivity.mDatabase;
 public class ChooseActivity extends AppCompatActivity {
 Integer maxCho=MainActivity.max;
 String setName=getUserName;
-String[] peoples=new String[21];
+String[] peoples=new String[50];
 int selected=-1;
 int checkedSelected=-2;
     int same=0;
@@ -83,13 +83,7 @@ int checkedSelected=-2;
                 }
             });
             Line.addView(button);
-            if((a+1)%4==0&&(a+1)+4<=maxCho){
-                Line=new LinearLayout(this);
-                Line.setOrientation(LinearLayout.HORIZONTAL);
-                Line.setGravity(Gravity.CENTER);
-                View.addView(Line);
-            }
-            else if((a+1)%4==0){
+            if((a+1)%4==0){
                 Line=new LinearLayout(this);
                 Line.setOrientation(LinearLayout.HORIZONTAL);
                 Line.setGravity(Gravity.LEFT);

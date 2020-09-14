@@ -62,11 +62,6 @@ private void loadStart(){
                     }
 
                 }
-
-
-
-
-
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
                 Toast.makeText(MainActivity.this,"로딩실패",Toast.LENGTH_SHORT).show();
